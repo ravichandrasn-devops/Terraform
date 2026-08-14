@@ -3,7 +3,6 @@ provider "aws" {
   region = "us-east-1"
 }
 
-
 resource "aws_vpc" "x_vpc" {
   cidr_block = "10.201.0.0/16"
 }
